@@ -1,0 +1,124 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	height: 100%;
+}
+
+body {
+	background-color: #1d1f21;
+	font-family: Bitstream Vera Sans, Tahoma, sans-serif;
+	font-size: 11px;
+	color: #b8bfc8;
+}
+
+table {
+	font-size: inherit;
+}
+
+a {
+	color: #96ad89;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #888888;
+}
+#greentxt {
+	color: #96ad89;
+	text-align: left;
+}
+input[type="text"], input[type="password"] {
+	padding: 1px 3px 0px 3px;
+	font-family: 'Courier New', "tahoma", "arial", "helvetica", "sans-serif";
+	font-size: 8pt;
+	border:1px #282a2e solid;
+	width: 200px;
+	background-color: #1b2127;
+	color: white;
+}
+
+input[type="text"]:valid, input[type="password"]:valid {
+	border:1px #282a2e solid;
+}
+
+/* input[type="text"]:invalid, input[type="password"]:invalid {
+	border-top-style: 1px #282a2e solid;
+	border-bottom-style: 1px #282a2e solid;
+	border-left-style: 1px #282a2e solid;
+	border-right-style: solid 2px;
+	border-color: red;
+}
+ */
+#head, #foot {
+	height: 6%;
+	min-height: 25px;
+	width: 100%;
+	background-color: #282a2e;
+	overflow: hidden;
+}
+
+#foot {
+	text-align: center;
+}
+
+#foot > span,#head > span {
+	top: 35%;
+	position: relative;
+	padding: 20px;
+}
+
+#foot > span {
+	color: #393939;
+}
+
+#maincontent {
+	width: 100%;
+	height: 88%;
+}
+
+#logo {
+	height: 60px;
+	width: 244px;
+	background-image: url('images/logo.png');
+	background-repeat: no-repeat;
+	background-position: top left;
+	padding: 50px 0px 0px 0px;
+	text-align: center;
+}
+
+#logo ul {
+	float: left;
+	left: 50%;
+	margin: 0 auto;
+	position: relative;
+}
+
+#logo ul li {
+	float: left;
+	position: relative;
+	right: 50%;
+	margin: 0 1em 0 0;
+	list-style: none;
+}
+
+.poetry {
+	width: 320px;
+	text-align: justify;
+}
+
+.hidden {
+	display: none;
+}
+
+.info {
+	color: green;
+	font-weight: bold;
+}
+
+.warning {
+	color: red;
+	font-weight: bold;
+}
